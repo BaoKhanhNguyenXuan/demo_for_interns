@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="alert_not_enough_space">Không đủ bộ nhớ lưu trữ</string>
+    <string name="max_value_upload">"Số lượng tối đa có thể tải lên là %d"</string>
+    <string name="error_system_error">Một lỗi đã xảy ra vui lòng thử lại</string>
+    <string name="cancel">Hủy</string>
+    <string name="preview_image">Xem trước</string>
+    <string name="alert_setting_change_dont_save">Những thay đổi bạn đang thay đổi có thể chưa được lưu?</string>
+    <string name="upload_fail">Tải lên lỗi</string>
+    <string name="uploading">Đang tải lên</string>
+    <string name="save">Lưu</string>
+    <string name="upload_images_success">写真がアップロードされました。</string>
+</resources>

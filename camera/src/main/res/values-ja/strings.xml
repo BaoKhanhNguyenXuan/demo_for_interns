@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">OK</string>
+    <string name="alert_not_enough_space">メモリ空き容量不足</string>
+    <string name="max_value_upload">アップロードできる最大数は %d です。</string>
+    <string name="error_system_error">エラーが発生して、再試行します</string>
+    <string name="cancel">キャンセル</string>
+    <string name="preview_image">プレビュー</string>
+    <string name="alert_setting_change_dont_save">行った変更が保存されない可能性があります。</string>
+    <string name="upload_fail">アップロード失敗</string>
+    <string name="uploading">アップロード中</string>
+    <string name="save">保存</string>
+    <string name="upload_images_success">写真がアップロードされました。</string>
+</resources>

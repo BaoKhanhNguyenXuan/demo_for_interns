@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#4dc0b5</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBolder">#76d7c4</color>
+    <color name="colorTextButton">#FFFFFF</color>
+    <color name="colorTextEditText">#000000</color>
+    <!--    radio checkbox-->
+    <color name="checked">#76d7c4</color>
+    <color name="unChecked">#7d9591</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="textFromSpeech">#7e8a88</color>
+
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+
+    <color name="warning_color">#d77689</color>
+    <color name="hint_color">#42000000</color>
+    <color name="success_color">#009688</color>
+    <color name="fingerprint_success">#009688</color>
+    <color name="finerprint_error">#F4511E</color>
+    <color name="fingerprint_fill">#FFFFFF</color>
+    <color name="card_solid">#fefefe</color>
+    <color name="background_loading">#9376d7</color>
+    <color name="shimmer_color">#7e8a88</color>
+</resources>

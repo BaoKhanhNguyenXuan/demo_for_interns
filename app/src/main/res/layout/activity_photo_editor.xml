@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/controlEdit"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_delete_24dp"
+            android:gravity="center"
+            android:text="@string/clear"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_save"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvUndo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_undo"
+            android:gravity="center"
+            android:text="@string/undo"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvRedo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_redo"
+            android:gravity="center"
+            android:text="@string/redo"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvSticker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_sticker"
+            android:gravity="center"
+            android:text="@string/sticker"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvEraser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_eraser"
+            android:gravity="center"
+            android:text="@string/eraser"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvBrush"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_brush"
+            android:gravity="center"
+            android:text="@string/brush"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:textSize="@dimen/text_size_small"
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_text"
+            android:gravity="center"
+            android:text="@string/text"
+            android:textColor="@color/white" />
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgSetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:src="@drawable/ic_setting"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ja.burhanrashid52.photoeditor.PhotoEditorView
+            android:id="@+id/photoEditorView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent" />
+    </FrameLayout>
+</LinearLayout>

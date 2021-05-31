@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/roomEditTitle"
+        android:title="Edit title"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/roomEditComment"
+        android:title="Edit comment"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/roomAddImage"
+        android:title="Add image"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/roomDeleteImage"
+        android:title="Delete image"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/roomDeleteRoom"
+        android:title="Delete room"
+        app:showAsAction="never" />
+</menu>

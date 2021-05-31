@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="house_filter">
+        <item>@string/filter_customer</item>
+        <item>@string/filter_house</item>
+        <item>@string/filter_new</item>
+        <item>@string/filter_old</item>
+    </string-array>
+</resources>
